@@ -5,12 +5,22 @@
 .jumbotron{
   text-align: center;
   background-image: url(../assets/backgrounds/landing.jpg);
-}
-.headerLogo{
-  width: 100%;
+
+  }
+#Breakfast {
+  background-image: url(../assets/foodtop/breakfast.jpg);
+  height: 200px;
+  background-position: center;
   text-align: center;
-  position: absolute;
-  margin: 0px; auto;
 
-
+}
+#Lunch {
+  background-image: url(../assets/foodtop/lunch.jpg);
+  height: 200px;
+  background-position: center;
+}
+#Dinner {
+  background-image: url(../assets/foodtop/dinner2.jpg);
+  height:200px;
+  background-position: center;
 }
