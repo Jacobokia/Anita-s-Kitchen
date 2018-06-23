@@ -4,11 +4,13 @@
 
 .jumbotron{
   text-align: center;
-  background: assets/backgrounds/landing.jpg;
-  position: fixed;
-  width: 100%
-  height: 100%
-  top:0
-  left:0
-  z-index: -1
+  background-image: url(../assets/backgrounds/landing.jpg);
+}
+.headerLogo{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  margin: 0px; auto;
+
+
 }
