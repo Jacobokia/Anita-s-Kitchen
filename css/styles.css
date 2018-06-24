@@ -5,27 +5,62 @@
 .jumbotron{
   text-align: center;
   background-image: url(../assets/backgrounds/landing.jpg);
+  height: 100%;
+  width: 100%
 
+
+  }
+  #happy{
+    background-color: white;
+    width: 90px;
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+  }
+  #Party{
+    background-color:#F15A29;
+    height:90px;
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+    background-position: center;
   }
 #Breakfast {
   background-image: url(../assets/foodtop/breakfast.jpg);
   height: 200px;
   background-position: center;
   text-align: center;
+  background-repeat: none;
 
 }
 #Lunch {
   background-image: url(../assets/foodtop/lunch.jpg);
   height: 200px;
   background-position: center;
+  background-position: center;
+  text-align: center;
+  background-repeat: none;
 }
 #Dinner {
   background-image: url(../assets/foodtop/dinner2.jpg);
   height:200px;
   background-position: center;
+  background-position: center;
+  text-align: center;
+  background-repeat: none;
 }
 
 .container1 {
   background-color: white;
   padding: 0
+}
+#subscribe {
+  background-image: url(../assets/backgrounds/subscribe.jpg);
+  height: 200px;
+  background-position: center;
+  text-align: center;
+  background-repeat: none;
+}
+.delivery {
+  color: white;
 }
