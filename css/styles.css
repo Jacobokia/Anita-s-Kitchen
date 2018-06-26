@@ -6,54 +6,68 @@
   text-align: center;
   background-image: url(../assets/backgrounds/landing.jpg);
   height: 100%;
-  width: 100%
-
-
+  width: 100%;
+  margin-bottom: 0;
   }
+
   #happy{
     background-color: white;
-    width: 90px;
+    height: 108px;
     background-size: cover;
     background-repeat: none;
     text-align: center;
   }
+
   #Party{
     background-color:#F15A29;
-    height:90px;
+    height:109px;
     background-size: cover;
     background-repeat: none;
     text-align: center;
     background-position: center;
   }
+
 #Breakfast {
   background-image: url(../assets/foodtop/breakfast.jpg);
-  height: 200px;
+  padding:77px;
   background-position: center;
   text-align: center;
   background-repeat: none;
 
 }
+
 #Lunch {
   background-image: url(../assets/foodtop/lunch.jpg);
-  height: 200px;
-  background-position: center;
-  background-position: center;
-  text-align: center;
-  background-repeat: none;
-}
-#Dinner {
-  background-image: url(../assets/foodtop/dinner2.jpg);
-  height:200px;
-  background-position: center;
+  padding: 77px;
   background-position: center;
   text-align: center;
   background-repeat: none;
 }
 
-.container1 {
-  background-color: white;
-  padding: 0
+#Dinner {
+  background-image: url(../assets/foodtop/dinner.jpg);
+  padding:77px;
+  background-position: center;
+  text-align: center;
+  background-repeat: none;
 }
+
+#btn1 {
+  background-color: #F15A29;
+}
+
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #F15A29;
+  text-align: center;
+  border: 1px solid #fff;
+  outline: none;
+  text-decoration: none;
+  border-color: #F15A29;
+}
+
 #subscribe {
   background-image: url(../assets/backgrounds/subscribe.jpg);
   height: 200px;
@@ -61,6 +75,48 @@
   text-align: center;
   background-repeat: none;
 }
-.delivery {
+
+.subbutton {
+  background-color: #F15A29;
+}
+.delivery2{
   color: white;
+}
+
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+#happy-customers {
+text-align: center;
+}
+.thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  width: 500px;
+}
+.th {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+.fastFood1 {
+  background-image: url(../assets/backgrounds/foodsBg.jpg);
+}
+.finale {
+  background-color: #F15A29;
+  text-align: center;
+  color: white;
+}
+.finale h3 {
+  display: inline;
 }
