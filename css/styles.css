@@ -2,20 +2,32 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Lato'
+}
 .jumbotron{
   text-align: center;
   background-image: url(../assets/backgrounds/landing.jpg);
-  height: 100%;
-  width: 100%;
+  /* height: 100%; */
+  /* width: 100%; */
   margin-bottom: 0;
   }
 
+.jumbotron img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#price {
+  color: white;
+}
   #happy{
     background-color: white;
     height: 108px;
     background-size: cover;
     background-repeat: none;
     text-align: center;
+    padding-top: 40px;
   }
 
   #Party{
@@ -25,6 +37,9 @@
     background-repeat: none;
     text-align: center;
     background-position: center;
+    padding-top: 40px;
+    color: white;
+
   }
 
 #Breakfast {
@@ -33,6 +48,7 @@
   background-position: center;
   text-align: center;
   background-repeat: none;
+  color: white;
 
 }
 
@@ -42,6 +58,7 @@
   background-position: center;
   text-align: center;
   background-repeat: none;
+  color: white;
 }
 
 #Dinner {
@@ -50,6 +67,7 @@
   background-position: center;
   text-align: center;
   background-repeat: none;
+  color: white;
 }
 
 #btn1 {
@@ -74,6 +92,8 @@
   background-position: center;
   text-align: center;
   background-repeat: none;
+  margin-top: 80px;
+  padding-top: 50px
 }
 
 .subbutton {
@@ -83,7 +103,6 @@
   color: white;
 }
 
-}
 .sidenav {
   height: 100%;
   width: 0;
@@ -91,32 +110,115 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
+  background-color: #111;
   padding-top: 60px;
   transition: 0.5s;
+  float: left;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  color: #818181;
+  transition: 0.3s;
+}
+.sidenav a :hover {
+  color: #f1f1f1;
+}
+.sidenav.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
+@media screen and (max-height:450px) {
+  .sidenav { padding-top: 15px;}
+  .sidenav a { font-size: 18px}
+}
 #happy-customers {
 text-align: center;
+margin-top: 30px;
+
+}
+
+.customers {
+  color: #F15A29;
+}
+
+.about {
+  color: #F15A29;
 }
 .thumbnail {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 15px;
+  margin-top: 50px;
   width: 500px;
+}
+.fastfood{
+  margin-top: 60px;
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.drinks {
+  margin-top: 90px;
+  padding-left: 10px;
+  padding-right: 50px;
 }
 .th {
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  padding-left: 50px;
+
 }
-.fastFood1 {
+.navtabcarousel {
   background-image: url(../assets/backgrounds/foodsBg.jpg);
+
 }
-.finale {
+
+#fastfood {
+background-color: white;
+margin-top: 30px;
+margin-bottom: 30px;
+width:950px;
+padding-top: 30px;
+
+}
+#chickenBurger {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+
+.finale{
   background-color: #F15A29;
   text-align: center;
   color: white;
 }
+#final {
+  padding-top: 40px;
+}
 .finale h3 {
   display: inline;
+}
+#about-menu {
+  margin-top: 50px;
+}
+#navmenu {
+  padding-top: 30px;
+}
+
+input[type = "text"] {
+  background: transparent;
+  
 }
