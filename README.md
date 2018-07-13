@@ -17,5 +17,8 @@ Hovering elements have not been worked on but it will resolved in the shortest t
 **Technologies Used**
 This application was mainly built using two languages namely HTML and CSS. I used Atom editor for compiling the work and linux terminal for making entries to the github platform
 
+**link to the github gh-pages**
+The project can be viewed live on  https://jacobokia.github.io/AnitasKitchen/.
+
 **Support and contact details**
 Persons willing to contribute or have concerns on the use of the application can reach me on cobs112@yahoo.com and can as well clone from my github repository.
