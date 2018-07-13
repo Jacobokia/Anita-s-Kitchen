@@ -70,7 +70,7 @@ body {
   color: white;
 }
 
-#btn1 {
+#button {
   background-color: #F15A29;
 }
 
@@ -220,5 +220,5 @@ padding-top: 30px;
 
 input[type = "text"] {
   background: transparent;
-  
+
 }
